@@ -3,7 +3,7 @@
 
 # Подготовка файлов
 
-1. Скачиваем сборку бокуру и закидываем папки в steamapps (тут установлены Ваши игры от стим).
+1. Скачиваем сборку и закидываем папки в steamapps (тут установлены Ваши игры от стим).
 2. Скачиваем [Source 2 Resource Viewer](https://valveresourceformat.github.io/) и доп. контент Dota2 в стим Dota 2 Worksop Tools DLC
 ![image](https://github.com/user-attachments/assets/f6f43432-276c-43b4-a1fa-aee6b768eb8f)
 
