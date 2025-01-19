@@ -34,7 +34,6 @@
 ![image](https://github.com/user-attachments/assets/81822c6f-e51f-4cd7-87a9-b36e0b24157b)
 
 2. В окне консоли запускаем команду (ТЭГ жесткого диска у Вас может быть другой и ни какой кириллицы)
-   
 ```
 Код:
 resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 beta\content\dota_broudcast2\*" -r -game "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota"
@@ -47,5 +46,25 @@ resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 be
 
 # Упаковка в VPK
 1. Заходим в папку с игрой по следующему адресу: `G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota_broudcast`
-2. Закидываем сюда
+2. Вызываем командную строку через адресную строку *(точно также как это было в разделе Перекодирование файлов в расширения стим пунтк 1.)*
+3. В окне консоли запускаем команду (ТЭГ жесткого диска у Вас может быть другой и ни какой кириллицы)
+   ```
+   Код:
+   "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota_broudcast\VPK\vpk.exe" -v a pak01 @vpk_list.txt
+   ```
+4. После воода адресов нажимаем `Enter`
+5. Получаем результат, что архи создан с определенными файлами
+![image](https://github.com/user-attachments/assets/5cc43e54-04dd-4fd9-ac7f-17bc81dd10c9)
 
+6. В папке появится файл pak01_dir.vpk
+7. Теперь можете запускать DOTA2 и радоваться новому стилю, который Вы придумаете
+
+# Индентификация нужных файлов в DOTA2
+Для того чтобы определить какой файл Вам мужен, то в консоле игры добавляем команду `-dev` и в демке Вы можете найти необходимый файл через *html код*, который вызывается кнопкой `F6`.
+Все позиции HUD DOTA2 кликабельные
+![image](https://github.com/user-attachments/assets/605040ac-42d7-49d1-8a06-63d86d43df1a)
+
+# P.S.   
+Первый раз может дольше заргуржать. Если все верно, то игра не будет крашится, если крашится (вылетает, закрывается), то что то сделано не так в файлах.
+Не забываем тестить обновление на демке.   
+Если ВАВЛ что-то изменит в файлах, то придется корретировать и Ваши файлы и заново упаковать.
