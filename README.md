@@ -53,7 +53,7 @@ resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 be
    "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota_broudcast\VPK\vpk.exe" -v a pak01 @vpk_list.txt
    ```
 4. После воода адресов нажимаем `Enter`
-5. Получаем результат, что архи создан с определенными файлами
+5. Получаем результат, что архив создан с определенными файлами
 ![image](https://github.com/user-attachments/assets/5cc43e54-04dd-4fd9-ac7f-17bc81dd10c9)
 
 6. В папке появится файл pak01_dir.vpk
