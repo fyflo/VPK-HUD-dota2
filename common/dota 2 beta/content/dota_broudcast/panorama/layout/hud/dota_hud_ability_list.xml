@@ -1,0 +1,9 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/hud/dota_hud_ability_list.vcss_c" />
+		<include src="s2r://panorama/styles/hud/dota_hud_ability_list_cast.vcss_c" />
+	</styles>
+	<DOTAAbilityList />
+</root>
