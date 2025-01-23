@@ -36,7 +36,7 @@
 2. В окне консоли запускаем команду (ТЭГ жесткого диска у Вас может быть другой и ни какой кириллицы)
 ```
 Код:
-resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 beta\content\dota_broudcast2\*" -r -game "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota"
+resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 beta\content\dota_broudcast\*" -r -game "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota"
 ```
 ![image](https://github.com/user-attachments/assets/0b405e80-efce-48e6-84ad-0cc39a07061c)
 
