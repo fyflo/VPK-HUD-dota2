@@ -59,6 +59,23 @@ resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 be
 6. В папке появится файл pak01_dir.vpk
 7. Теперь можете запускать DOTA2 и радоваться новому стилю, который Вы придумаете
 
+# Обязательно gameinfo.gi
+1. Заходим по адресу игры DOTA2 в папку *dota* `G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota`
+2. И вставляем строки *Game	dota_broudcast* и *Mod	dota_broudcast*
+   ```
+   Должно получиться вот так
+         Game				dota_broudcast
+			Game				dota
+			Game				core
+			
+			Mod				dota_broudcast
+			Mod				dota
+
+			Write				dota
+   
+
+   ```
+
 # Индентификация нужных файлов в DOTA2
 Для того чтобы определить какой файл Вам мужен, то в консоле игры добавляем команду `-dev` и в демке Вы можете найти необходимый файл через *html код*, который вызывается кнопкой `F6`.
 Все позиции HUD DOTA2 кликабельные
