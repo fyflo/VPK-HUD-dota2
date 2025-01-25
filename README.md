@@ -40,7 +40,7 @@
 Код:
 resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 beta\content\dota_broudcast\*" -r -game "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota"
 ```
-	![image](https://github.com/user-attachments/assets/0b405e80-efce-48e6-84ad-0cc39a07061c)
+![image](https://github.com/user-attachments/assets/0b405e80-efce-48e6-84ad-0cc39a07061c)
 
 3. После ввода адресов нажимаем `Enter`
   Ожиадаем создание файлов. После обозначения должно быть написано сколько файлов создано.
