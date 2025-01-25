@@ -46,25 +46,32 @@ resourcecompiler -v -pauseiferror -i "G:\SteamLibrary\steamapps\common\dota 2 be
 
 # Упаковка в VPK
 1. Заходим в папку с игрой по следующему адресу: `G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota_broudcast`
-2. Вызываем командную строку через адресную строку *(точно также как это было в разделе Перекодирование файлов в расширения стим пунтк 1.)*
-3. В окне консоли запускаем команду (ТЭГ жесткого диска у Вас может быть другой и ни какой кириллицы)
+2. Создаем текстовый файл с названием vpk_list.txt и заполняем адрес файлов:
+   ```
+	Пример:
+	panorama/layout/hud/hud_reborn.vxml_c
+	panorama/styles/hud/hud_reborn_cast.vcss_c
+   ```
+4. Вызываем командную строку через адресную строку *(точно также как это было в разделе Перекодирование файлов в расширения стим пунтк 1.)*
+5. В окне консоли запускаем команду (ТЭГ жесткого диска у Вас может быть другой и ни какой кириллицы)
    ```
    Код:
    "G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota_broudcast\VPK\vpk.exe" -v a pak01 @vpk_list.txt
    ```
-4. После воода адресов нажимаем `Enter`
-5. Получаем результат, что архив создан с определенными файлами
+6. После воода адресов нажимаем `Enter`
+7. Получаем результат, что архив создан с определенными файлами
 ![image](https://github.com/user-attachments/assets/5cc43e54-04dd-4fd9-ac7f-17bc81dd10c9)
 
-6. В папке появится файл pak01_dir.vpk
-7. Теперь можете запускать DOTA2 и радоваться новому стилю, который Вы придумаете
+8. В папке появится файл pak01_dir.vpk
+9. Теперь можете запускать DOTA2 и радоваться новому стилю, который Вы придумаете
 
 # Обязательно gameinfo.gi
 1. Заходим по адресу игры DOTA2 в папку *dota* `G:\SteamLibrary\steamapps\common\dota 2 beta\game\dota`
 2. И вставляем строки *Game	dota_broudcast* и *Mod	dota_broudcast*
    ```
    Должно получиться вот так
-         Game				dota_broudcast
+   
+         		Game				dota_broudcast
 			Game				dota
 			Game				core
 			
